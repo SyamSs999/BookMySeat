@@ -1,0 +1,65 @@
+.Seat-booking-nav-bar {
+  background-color: #1f2533;
+  height: 5vh;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.movie-details-container {
+  display: flex;
+  align-items: center;
+}
+.back-btn {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.movie-title {
+  color: #e1e8f0;
+  font-size: 18px;
+  margin: 0;
+  font-weight: 500;
+  line-height: 30px;
+}
+.select-ticket-options {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+.no-of-tickets {
+  font-size: 13px;
+  font-weight: 600;
+  color: #e1e8f0;
+}
+.option-label {
+  color: #d1e3fa;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+.select-options {
+  height: 30px;
+  width: 130px;
+  border-radius: 5px;
+  color: #d1e3fa;
+  background-color: #1f2533;
+  font-size: 15px;
+  outline: none;
+  border: 1px dashed #e1e8f0;
+  padding: 5px;
+  cursor: pointer;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30px;
+}
+option {
+  background-color: #1f2533;
+  color: #d1e3fa;
+  font-size: 15px;
+}
